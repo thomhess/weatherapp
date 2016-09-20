@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7ea53c4458b80e8ea71f7fd6831fa184c501377b">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-api-9.4.0_0cfc5638f87ff8b5f4a7ed37c38de77aee807344.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-9.4.0_e3a6cd63455c8ed08a21c5edbfef487671a3ae93.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-9.4.0_0dfdd243187af974bdec16e9b8dc0a5b8df9fc21.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-9.4.0_2cf36fb80cd521fe7a46b97f2bd619db037a7972.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_e82adc64e0315bb45dd5df0c098d49f100f1d0ef.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-common-9.4.0_94b677f56ad83132d916e657f19be1b8c973c5ee.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-config-9.4.0_33fe97a864544c31ef1676663d22b643079ccea0.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.4.0_51c9b3eac9dbf50e09cf8c6923563712d89c4cad.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-9.4.0_dd9b0c5904cb7007d54f0a7151179649289fca43.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_8b6b8e0d756b790f58bae68515f0d9a97205dc8b.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_cc987da7cf28bca8565e8a09de5c8cd9e7d21c90.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.4.0_ad562d07802d7edef77397f003d402ac89581fc3.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.4.0_84eeed18268fa0242913ae49c687a09a4036af8a.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-contextmanager/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-contextmanager-9.4.0_0bc96229cb9aae6750a570f50433213b11593ae5.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-module-9.4.0_cc409844a65d688e43a9b91aec1fd8d8e7528ead.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d49118ba67a101c4895f0581f17142cba85b330b">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-9.4.0_e28fd7e09b8d41c4c461fe6e7b8de08f024c0ecf.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-impl-9.4.0_3c5136cff024cbb675cf709e1e33adf0ab6abe1c.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_4824b938f70aac013d64b50afeffab7520795f66.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-9.4.0_c02ae76ae2a584c63aa5b6e38d84a98326c10ebb.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.4.0_96edcd6447db7e2354a0bf722484266a2822a019.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.4.0_8798f5c49e114a03cc0e880bd4f067379f0f2622.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.4.0_47fc671ccbdc8f219826d418bdbf0f630c2cd42d.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-9.4.0_4b22638cf5de8a477556666b61e1d179a9f0e5b5.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b1acf13f1b7d8232af78a30833f9a966d1394c84">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-9.4.0_3854466aa1d56376c1aa64288391995a84f2dbfe.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-9.4.0_089bbf086a6020ce658e4700a649adc78a64d330.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-framework-9.4.0_d4fdc5eaee852f3a88f874f72bc48bad9bb06b4b.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.4.0_64deb59cba6ca63f641fac6657177d2703ebb3fc.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-9.4.0_b3be172f3b9d9d9b9aec80a4c09e2e50d4fc9042.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a432629397351d3ec7f27a23d258b229b81af08f">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-9.4.0_f7baad4a0c39029127bb7073d90a778802e4e186.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-9.4.0_5151ab464579e7c934b50131cac69af04ee070d8.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-9.4.0_8857075c44a9786aa2d8e5ac89bbd131ce1893d9.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e6e2251f3d3abf4eecd6bf6919d41fc7af497852">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-9.4.0_4b93f2fb612c798d34f00e4a85b301765c5ffc3b.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.4.0_2ede638bbf92f9a375292872dd050f8885638c73.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.4.0_63c9c29867f6c54397ed5922497afae12ce02750.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-9.4.0_f5c5a27b7956c849d7294c7bd8cfad0b2a1b21fc.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-9.4.0_0ef1f56646448a2817271ae5772173ed294d1023.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.4.0_920676c682a5a031879ea55c3e6cb9ead934798a.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-9.4.0_d77cea24e16e8b2d9b6c8007d2dc18540b6fbffd.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-9.4.0_4ae349526cf90489df7ca1fa5b10e48ee3d1f352.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e35002351f2d415093a9b564652d4b56be6a0593">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-places-9.4.0_33ea177b6c0d9133137db09b1d7cc59781a3f473.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.4.0_1d119a1e7d0d65ddee7654218f34b3626c0eb24d.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.4.0_fb3ab00d904b24bab3c104c0342b68f32abd8060.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_ecb02deece2bfd9c70d3a5e029c82055cdf3a27b.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.4.0_6409d3830ccba6e8434fcb1561a1ad36b2975ccf.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.android.support-mediarouter-v7-23.0.0_73d232a8b80674876cd2778b7e2d5437658e182f.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_a3e72fa5ad9f97435990c4db2649352c56f32eac.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-9.4.0_5a66efd2b8d42f9dee9ce2b57a815f4037a6a7e4.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-9.4.0_27ca67122728c20ca48cdb844cb6b6998501913e.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-9.4.0_c53b2c619c2eee45ee03eb051d4a60ae847b79cd.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-9.4.0_3c55ffd00ff1c758b2ccfa9aba51f19226da6fe5.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-9.4.0_1fbb4705a95ceaa0d34c7580aa25470ed4c03187.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.4.0_85edcf8751f93bbf839b78bab3e8bf12e1c26025.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_f5dfbcc6b5144744b34d6dfbcac07e8e3f45692e.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-9.4.0_75d74bcc41b4486ae9adff1649e5cb674c84c4d7.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-common-9.4.0_cd244b35cc820b8808d0839b8bb3770e489696b7.jar" />
+    </item>
+    <item
+        jar="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/Users/thomhess/Downloads/MyWeatherApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.4.0_048b25ed5bf7cae3b749762253288dba098faee0.jar" />
+    </item>
+
+</items>
