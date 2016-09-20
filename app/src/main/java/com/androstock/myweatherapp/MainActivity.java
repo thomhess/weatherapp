@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
         buckysText = (TextView) findViewById(R.id.buckysText);
         dbHandler = new MyDBHandler(this, null, null, 1);
-        //printDatabase();
+        printDatabase();
 
         // Here, thisActivity is the current activity
         if (ContextCompat.checkSelfPermission(this,
@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void updateView () {
-        Function.placeIdTask asyncTask =new Function.placeIdTask(new Function.AsyncResponse() {
+        Function.placeIdTask asyncTask = new Function.placeIdTask(new Function.AsyncResponse() {
             public void processFinish(String weather_city, String weather_temperature,String weather_updatedOn) {
 
                 cityField.setText(weather_city);
@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    /*
+
     public void addToDatabaseClicked(View view) {
         String city = cityField.getText().toString();
         String updated = updatedField.getText().toString();
@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
         buckysText.setText(dbString);
 
     }
-    */
+
 
 
      //Called when the user clicks the Map button

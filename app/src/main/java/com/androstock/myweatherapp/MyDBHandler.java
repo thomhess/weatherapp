@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 /**
  * Created by thomhess on 19.09.16.
@@ -24,19 +25,21 @@ public class MyDBHandler extends SQLiteOpenHelper {
 
     public MyDBHandler(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, DATABASE_NAME, factory, DATABASE_VERSION);
+        Log.v("Denne ligger på linje", "28");
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
         String query = "CREATE TABLE " + TABLE_DATA + "(" +
-                COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " +
-                COLUMN_LOCATION + " TEXT " +
-                COLUMN_UPDATEDON + " TEXT " +
-                COLUMN_LATITUDE + " FLOAT " +
-                COLUMN_LONGITUDE + " FLOAT " +
-                COLUMN_ALTITUDE + " FLOAT " +
+                COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                COLUMN_LOCATION + " VARCHAR(255), " +
+                COLUMN_UPDATEDON + " VARCHAR(255), " +
+                COLUMN_LATITUDE + " FLOAT, " +
+                COLUMN_LONGITUDE + " FLOAT, " +
+                COLUMN_ALTITUDE + " FLOAT, " +
                 COLUMN_TEMPERATURE + " FLOAT " +
                 ");";
+        Log.v("Denne ligger på linje", "41");
         db.execSQL(query);
     }
 
@@ -45,6 +48,7 @@ public class MyDBHandler extends SQLiteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_DATA);
+        Log.v("Denne ligger på linje", "49");
         onCreate(db);
     }
 
@@ -60,6 +64,7 @@ public class MyDBHandler extends SQLiteOpenHelper {
 
         SQLiteDatabase db = getWritableDatabase();
         db.insert(TABLE_DATA, null, values);
+        Log.v("Denne ligger på linje", "64");
         db.close();
     }
 
@@ -67,26 +72,31 @@ public class MyDBHandler extends SQLiteOpenHelper {
     public void deleteRow(String productName) {
         SQLiteDatabase db = getWritableDatabase();
         db.execSQL( "DELETE FROM" + TABLE_DATA + " WHERE " + COLUMN_LOCATION + "=\"" + productName + "\";" );
+        Log.v("Denne ligger på linje", "71");
     }
 
     //Print out the database as a string
     public String databaseToString() {
         String dbString = "";
-        SQLiteDatabase db = getWritableDatabase();
+        SQLiteDatabase db = this.getWritableDatabase();
         String query = "SELECT * FROM " + TABLE_DATA + " WHERE 1";
+        Log.v("Denne ligger på linje", "78");
 
         // Cursor point to a location in your results
         Cursor c = db.rawQuery(query, null);
         //Move to the first row in your results
-        c.moveToFirst();
+        if(c.moveToFirst()){
+            while (c.moveToNext()) {
+                if(c.getString(c.getColumnIndex("location"))!= null) {
+                    dbString += c.getString(c.getColumnIndex("location"));
+                    dbString += "\n";
 
-        while (!c.isAfterLast()) {
-            if(c.getString(c.getColumnIndex("location"))!= null) {
-                dbString += c.getString(c.getColumnIndex("location"));
-                dbString += "\n";
+                    Log.v("Denne ligger på linje", "88");
+                }
+
             }
-
         }
+
         db.close();
         return dbString;
     }
