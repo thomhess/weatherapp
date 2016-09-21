@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
 
     static final int MY_PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION = 1;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,19 +58,14 @@ public class MainActivity extends AppCompatActivity {
                 android.Manifest.permission.ACCESS_FINE_LOCATION)
                 != PackageManager.PERMISSION_GRANTED) {
 
-
                 // No explanation needed, we can request the permission.
-
                 ActivityCompat.requestPermissions(this,
                         new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION},
                         MY_PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION);
-
         }
-
 
         LocationManager lm = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         //Location location = lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-
 
         // Define a listener that responds to location updates
         LocationListener locationListener = new LocationListener() {
@@ -86,21 +80,14 @@ public class MainActivity extends AppCompatActivity {
                 alti = Double.toString(altitude);
 
                 updateView();
-
             }
-
             public void onStatusChanged(String provider, int status, Bundle extras) {}
-
             public void onProviderEnabled(String provider) {}
-
             public void onProviderDisabled(String provider) {}
-
         };
 
         lm.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
-
         updateView();
-
     }
 
     public void updateView () {
@@ -110,7 +97,6 @@ public class MainActivity extends AppCompatActivity {
                 cityField.setText(weather_city);
                 updatedField.setText(weather_updatedOn);
                 currentTemperatureField.setText(weather_temperature);
-
             }
         });
         if (latitude == 0 && longitude == 0){
@@ -120,7 +106,6 @@ public class MainActivity extends AppCompatActivity {
             asyncTask.execute(lati, longi); //  asyncTask.execute("Latitude", "Longitude")
         }
     }
-
 
     @Override
     public void onRequestPermissionsResult(int requestCode,
@@ -132,10 +117,7 @@ public class MainActivity extends AppCompatActivity {
                         && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
 
                     // Register the listener with the Location Manager to receive location updates
-
-
                 } else {
-
                     // permission denied, boo! Disable the
                     // functionality that depends on this permission.
                 }
@@ -143,7 +125,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-
 
     public void addToDatabaseClicked(View view) {
         String city = cityField.getText().toString();
@@ -153,20 +134,14 @@ public class MainActivity extends AppCompatActivity {
         WeatherData row = new WeatherData(city, updated, lati, longi, alti, temperature);
         dbHandler.addRow(row);
         printDatabase();
-
-
     }
 
     public void printDatabase(){
         String dbString = dbHandler.databaseToString();
         buckysText.setText(dbString);
-
     }
 
-
-
      //Called when the user clicks the Map button
-
     public void goToMap(View view) {
         Intent intent = new Intent(MainActivity.this, MapsActivity.class);
         Bundle b = new Bundle();
@@ -175,5 +150,4 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtras(b);
         startActivity(intent);
     }
-
 }

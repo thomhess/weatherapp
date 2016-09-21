@@ -21,14 +21,10 @@ public class Function {
 
 	private static final String WeatherAPI = "eada0ee894d73ea18b24a787a9d564ad";
 
-
-
 	public interface AsyncResponse {
 
 		void processFinish(String output1, String output2, String output3);
 	}
-
-
 
 	 public static class placeIdTask extends AsyncTask<String, Void, JSONObject> {
 

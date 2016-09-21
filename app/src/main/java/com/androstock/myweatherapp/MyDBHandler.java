@@ -25,7 +25,6 @@ public class MyDBHandler extends SQLiteOpenHelper {
 
     public MyDBHandler(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, DATABASE_NAME, factory, DATABASE_VERSION);
-        Log.v("Denne ligger på linje", "28");
     }
 
     @Override
@@ -39,16 +38,12 @@ public class MyDBHandler extends SQLiteOpenHelper {
                 COLUMN_ALTITUDE + " FLOAT, " +
                 COLUMN_TEMPERATURE + " FLOAT " +
                 ");";
-        Log.v("Denne ligger på linje", "41");
         db.execSQL(query);
     }
-
-
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_DATA);
-        Log.v("Denne ligger på linje", "49");
         onCreate(db);
     }
 
@@ -64,7 +59,6 @@ public class MyDBHandler extends SQLiteOpenHelper {
 
         SQLiteDatabase db = getWritableDatabase();
         db.insert(TABLE_DATA, null, values);
-        Log.v("Denne ligger på linje", "64");
         db.close();
     }
 
@@ -72,7 +66,6 @@ public class MyDBHandler extends SQLiteOpenHelper {
     public void deleteRow(String productName) {
         SQLiteDatabase db = getWritableDatabase();
         db.execSQL( "DELETE FROM" + TABLE_DATA + " WHERE " + COLUMN_LOCATION + "=\"" + productName + "\";" );
-        Log.v("Denne ligger på linje", "71");
     }
 
     //Print out the database as a string
@@ -80,7 +73,6 @@ public class MyDBHandler extends SQLiteOpenHelper {
         String dbString = "";
         SQLiteDatabase db = this.getWritableDatabase();
         String query = "SELECT * FROM " + TABLE_DATA + " WHERE 1";
-        Log.v("Denne ligger på linje", "78");
 
         // Cursor point to a location in your results
         Cursor c = db.rawQuery(query, null);
@@ -90,8 +82,6 @@ public class MyDBHandler extends SQLiteOpenHelper {
                 if(c.getString(c.getColumnIndex("location"))!= null) {
                     dbString += c.getString(c.getColumnIndex("location"));
                     dbString += "\n";
-
-                    Log.v("Denne ligger på linje", "88");
                 }
 
             }

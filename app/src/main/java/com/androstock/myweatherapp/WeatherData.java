@@ -26,7 +26,6 @@ public class WeatherData {
         this._temperature = temperature;
     }
 
-
     //Setters
     public void set_id(int _id) {
         this._id = _id;
